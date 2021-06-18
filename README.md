@@ -5,6 +5,7 @@ script hg680p.sh by Lutfailham96.
 Visit github Lutfailham96 on : https://github.com/lutfailham96
 
 Cara pakai :
+
 Copy dan paste kan perintah ini di stb hg680p openwrt anda
 
 Perintah pertama : 
