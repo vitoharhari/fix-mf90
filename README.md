@@ -6,6 +6,11 @@ Visit github Lutfailham96 on : https://github.com/lutfailham96
 
 Cara pakai :
 Copy dan paste kan perintah ini di stb hg680p openwrt anda
+
+Perintah pertama : 
+
 wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/fix-mf90/main/hg680p.sh" -O /usr/bin/hg680p.sh && chmod +x /usr/bin/hg680p.sh
+
+Perintah kedua : 
 
 wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/fix-mf90/main/autorebootmifi.sh" -O /root/autorebootmifi.sh && chmod +x /root/autorebootmifi.sh
