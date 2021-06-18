@@ -15,3 +15,11 @@ wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/fix-m
 Perintah kedua : 
 
 wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/fix-mf90/main/autorebootmifi.sh" -O /root/autorebootmifi.sh && chmod +x /root/autorebootmifi.sh
+
+Lalu masukkan perintah berikut ini kedalam rc.local (local startup)
+
+#!/bin/bash
+/root/autorebootmifi.sh
+exit 0
+
+Setelah itu save dan tes dengan reboot stb hg680p openwrt anda
